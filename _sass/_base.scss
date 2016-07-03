@@ -47,12 +47,6 @@ img {
     vertical-align: middle;
 }
 
-#polymer-screen {
-    display: block;
-    margin: 0 auto $spacing-unit auto;
-    width: 50%;
-}
-
 
 /**
  * Figures
@@ -210,6 +204,22 @@ pre {
     }
 }
 
+
+/**
+ * Custom
+ */
+
 .logo {
     width: 48px;
+}
+
+#polymer-screen {
+    display: block;
+    margin: 0 auto $spacing-unit auto;
+    width: 50%;
+}
+
+.twitter-follow-button {
+    display: block;
+    margin: auto;
 }
