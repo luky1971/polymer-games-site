@@ -219,7 +219,12 @@ pre {
     width: 50%;
 }
 
-.twitter-follow-button {
+.social-button, .twitter-follow-button {
     display: block;
-    margin: auto;
+    margin: 0 auto 10px auto;
+}
+
+.ytube-button {
+    width: 85px;
+    margin: 0 auto 10px auto;
 }
