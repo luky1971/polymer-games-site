@@ -15,6 +15,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://polymergames.com" # the base hostname & protocol for your site
 twitter_username: polymer_games
+facebook_username: polymergames
+youtube_id: UCUzUuUaNOR_iE30HoBeky7Q
 
 # Build settings
 markdown: kramdown
