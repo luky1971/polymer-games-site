@@ -57,6 +57,8 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+    text-align: center;
+    margin: $spacing-unit / 3;
 }
 
 
@@ -213,9 +215,12 @@ pre {
     width: 48px;
 }
 
-#polymer-screen {
+.block-image {
     display: block;
-    margin: 0 auto $spacing-unit auto;
+    margin: $spacing-unit auto $spacing-unit auto;
+}
+
+#polymer-screen {
     width: 50%;
 }
 

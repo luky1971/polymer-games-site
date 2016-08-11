@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "We Love Modders"
+author: Ahnaf Siddiqui
+tags: polymer, diamond, modding
+---
+
+<p>
+	Icy Tower is a very fun game. But the greatest time I've had with it was outside of the game itself: I forced a friend of mine to perform a pose for every single frame in the player character's animations. These are the poses for reference:
+</p>
+
+<img class="block-image" src="/assets/icy-tower-sprites.png"></img>
+
+<p>
+	The jump poses were particularly fun. I took photos of him, recorded his voice, replaced some files, and my friend came to life within Icy Tower.
+</p>
+
+<p>
+	What does this story have to do with Polymer? I'll get to that...
+</p>
+<!--more-->
+<p>
+	Over the past couple of weeks, one of the things I've been working on is a resource loading system based on plaintext config files. With Polymer, our goal is to configure through plaintext as much of the game as reasonably possible. This includes character sprite selection, hitboxes, movement speeds, damage values, spawn rates, various other character stats, level transitions, and whatnot. These kinds of parameters can transform a game dramatically, which is why they're usually protected from tampering in obfuscated binary files or source code. Despite that, we are planning on using plaintext for two primary reasons: 
+</p>
+
+<ol>
+	<li>Faster development</li>
+	<li>We want to <strong>promote modding in mobile games</strong></li>
+</ol>
+
+<p>
+	The first reason is purely selfish: I get tired of waiting for the game to recompile, and config files will allow me to rapidly try out different things and iterate on gameplay balancing without rebuilding the game. It makes the development process a lot faster and the codebase a lot more maintainable.
+</p>
+
+<figure>
+	<img src="/assets/config-screenshot.png"></img>
+	<figcaption>Diamond engine's config files are plaintext lists of key-value pairs. # indicates comments.</figcaption>
+</figure>
+
+
+<p>
+	But the second reason is more important. Modding Icy Tower was some of the most fun I've ever had, and I want it to be just as easy for people playing my games to enjoy that feeling. When my friends saw Polymer in its early stages, they immediately started suggesting mods of the artwork and gameplay based on our own inside jokes. I realized that a game doesn't have to be the same experience for everyone. Games, as a static piece of software, are an expression of the creativity of their developers. But they can be limitlessly more powerful as a <strong>platform</strong> for the creativity of players (look no further than Minecraft). That being said, most modding has traditionally been limited to PC games. Although mods exist on other platforms, they're much less convenient to make, share, and use, and are therefore relegated to obscurity.
+</p>
+
+<p>
+	With Polymer, we want to try something that, as far as I know, has never been done well on mobile. We want to provide community creation tools that will allow users to easily modify the game without needing to rebuild the apk. If they want, they can share those mods with everyone through an in-game network, or just share it with their friends. It'll be possible to download mods in a single tap and play a whole new game without having to update or reinstall the app. File-based configurability is what would make this possible. The plaintext part makes it easy for other developers to use their own tools to modify the game.
+</p>
+
+<p>
+	And as a bonus, this config system is part of the foundations of what will one day be a user-friendly GUI for our <a href="https://github.com/luky1971/Diamond" target="_blank">game engine</a>. But we're not ready to compete with Unity just yet ;) 
+</p>
+
+<p>
+	Do you think that opening up a game to such easy and thorough modification is a good idea? Does modding have a place in mobile games? Holler at us on <a href="https://twitter.com/polymer_games" target="_blank">Twitter</a>, <a href="https://www.facebook.com/polymergames/" target="_blank">Facebook</a>, or <a href="https://www.youtube.com/channel/UCUzUuUaNOR_iE30HoBeky7Q" target="_blank">our YouTube channel!</a>
+</p>
