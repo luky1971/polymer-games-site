@@ -10,7 +10,7 @@ title: Polymer Games
 email: info@polymergames.com
 description: > # this means to ignore newlines until "baseurl:"
   In an industry full of innovative graphics and story-telling, our only goal is to make fun games. 
-  Some of our favorite games are Snake, Nokia's Space Impact, and the original Legend of Zelda.
+  Some of our favorites are Snake, Nokia's Space Impact, and the original Legend of Zelda.
   Our mission is to bring back the addictive gameplay of those classics on modern platforms.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://polymergames.com" # the base hostname & protocol for your site
